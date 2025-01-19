@@ -95,7 +95,7 @@ const Navbar = () => {
 
 const letters = "!ABCDEFGHIJKLMNOPQRSTUVWXYZ#";
 
-export const handleMouseEnter = (el: any) => {
+const handleMouseEnter = (el: any) => {
   if (!el) return;
   el = el.target;
   let iteration: number = 0;
