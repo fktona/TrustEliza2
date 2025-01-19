@@ -13,9 +13,8 @@
     --foreground: #ededed;
   }
 }
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* @media screen and (max-width: 768px) {
+    background-color: url("/mobile.png");
+  } */
 }
