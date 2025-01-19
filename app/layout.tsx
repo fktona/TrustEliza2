@@ -8,7 +8,7 @@ const digital = localFont({
   variable: "--font-digital",
 });
 
-export const ppInter = Inter({
+const ppInter = Inter({
   weight: ["400", "700"],
   variable: "--font-inter",
   subsets: ["latin"],
