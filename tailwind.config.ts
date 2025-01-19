@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        digital: "var(--font-digital)",
+        inter: "var(--font-inter)",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

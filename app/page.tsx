@@ -49,7 +49,7 @@ export default function Home() {
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-[80px] font-inter  flex justify-between items-center px-5">
+    <nav className="w-full h-[80px]   flex justify-between items-center px-5">
       <h2 className="text-[40px] uppercase font-digital">TrustEliza</h2>
       <div className=" px-3 lg:flex gap-1 hidden items-center py-2 ">
         <a
