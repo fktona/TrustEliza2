@@ -6,7 +6,7 @@ const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || "your-webhook-secret";
 // Store the latest webhook data
 let latestWebhookData: any = null;
 
-export const revalidate = 0;
+export const revalidate = 60 * 5;
 export async function POST(request: NextRequest) {
   const authHeader = request.headers.get("authorization");
   if (authHeader !== `${WEBHOOK_SECRET}`) {
