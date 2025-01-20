@@ -2,6 +2,8 @@
 import Image from "next/image";
 import NoiseBackgroundCanvas from "./noise";
 import { motion } from "framer-motion";
+import Tweet from "./tweet";
+import TweetContainer from "./tweet-container";
 
 export default function Home() {
   return (
@@ -24,6 +26,9 @@ export default function Home() {
       /> */}
       <NoiseBackgroundCanvas />
       <Navbar />
+      {/* <div className="absolute bottom-0 flex lg:flex-col  items-center w-full gap-5 p-5 max-h-[40vh] overflow-auto"> */}
+      <TweetContainer />
+      {/* </div> */}
       <div className="text-[15px] w-full lg:w-auto flex flex-col items-center gap-3 absolute bottom-6 px-5 ">
         <div className=" px-3  lg:hidden flex gap-1 items-center py-2 ">
           <a
