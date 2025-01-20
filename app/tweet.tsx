@@ -16,14 +16,14 @@ export default function Tweet({
 }: TweetProps) {
   return (
     <motion.div
-      className={`w-full p-4 font-inter rounded-xl min-h-[20vh] mr-5 lg:mr-2 backdrop-blur-lg ${
+      className={`w-full py-4 px-2 font-inter rounded-3xl min-h-[20vh] mr-5 lg:mr-2 backdrop-blur-lg ${
         isActive ? "bg-white/40" : "bg-white/60"
       } transition-colors duration-300`}
       whileHover={{ scale: 1.02 }}
     >
       <div className="flex   flex-col justify-around gap-5">
-        <div className="flex  backdrop-blur-md   items-center px-2 bg-white/60 p-1 w-fit rounded-full gap-1">
-          <div className="w-8 h-8 rounded-full overflow-hidden bg-white/80">
+        <div className="flex   bg-white/30  items-center px-2  p-1 w-fit rounded-full gap-1">
+          <div className="w-8 h-8 rounded-full overflow-hidden ">
             <Image
               src="/eliza.png"
               alt="Profile"
