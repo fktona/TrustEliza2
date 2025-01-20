@@ -27,13 +27,13 @@ export default function Home() {
       <div className="text-[15px] w-full lg:w-auto flex flex-col items-center gap-3 absolute bottom-6 px-5 ">
         <div className=" px-3  lg:hidden flex gap-1 items-center py-2 ">
           <a
-            href="#"
+            href="https://x.com/Truth_Eliza"
             className="  w-16 h-16 flex items-center rounded-tl-2xl rounded-bl-2xl justify-center lg:rounded-tl-lg lg:rounded-bl-lg bg-white/10"
           >
             <Image src="/x.png" width={30} height={30} alt="x" />
           </a>
           <a
-            href="#"
+            href="https://truthsocial.com/@Truth_Eliza"
             className="  w-16 h-16 flex items-center justify-center  bg-white/10"
           >
             <Image src="/truth.png" width={30} height={30} alt="truth" />
@@ -56,13 +56,13 @@ const Navbar = () => {
       <h2
         className="text-[40px] uppercase cursor-pointer font-digital"
         onMouseEnter={handleMouseEnter}
-        data-value="TrustEliza"
+        data-value="Truth Eliza"
       >
-        TrustEliza
+        Truth Eliza
       </h2>
       <div className="px-3 lg:flex gap-1 hidden items-center py-2">
         <motion.a
-          href="#"
+          href="https://x.com/Truth_Eliza"
           className="w-12 h-12 flex items-center justify-center lg:rounded-tl-lg lg:rounded-bl-lg bg-white/20"
           whileHover={{ scale: 1.1, opacity: 0.8 }}
           whileTap={{ scale: 0.95 }}
@@ -71,7 +71,7 @@ const Navbar = () => {
           <Image src="/x.png" width={24} height={24} alt="x" />
         </motion.a>
         <motion.a
-          href="#"
+          href="https://truthsocial.com/@Truth_Eliza"
           className="w-12 h-12 flex items-center justify-center bg-white/20"
           whileHover={{ scale: 1.1, opacity: 0.8 }}
           whileTap={{ scale: 0.95 }}
