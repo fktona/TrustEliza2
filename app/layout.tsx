@@ -15,7 +15,7 @@ const ppInter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "TrustEliza",
+  title: "Truth Eliza",
   description: "Truth AI Agent",
 };
 
