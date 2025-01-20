@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 interface TweetProps {
-  content: string;
+  content?: string;
   timestamp?: string;
   isActive?: boolean;
 }
@@ -21,14 +21,14 @@ export default function Tweet({
       } transition-colors duration-300`}
       whileHover={{ scale: 1.02 }}
     >
-      <div className="flex b  flex-col justify-around gap-5">
-        <div className="flex  ackdrop-blur-md   items-center bg-white/60 p-2 w-fit rounded-full gap-3">
+      <div className="flex   flex-col justify-around gap-5">
+        <div className="flex  backdrop-blur-md   items-center px-2 bg-white/60 p-1 w-fit rounded-full gap-1">
           <div className="w-8 h-8 rounded-full overflow-hidden bg-white/80">
             <Image
-              src="/avater.svg"
+              src="/eliza.png"
               alt="Profile"
-              width={40}
-              height={40}
+              width={32}
+              height={32}
               className="object-cover"
             />
           </div>
